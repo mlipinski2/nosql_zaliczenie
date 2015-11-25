@@ -2,7 +2,9 @@
 Projekt zespolowy stworzony na zaliczenie zajec czesci laboratoryjnej nosql
 
 osoby:
+
 Michał Lipiński
+
 Mariusz Piątek
 
 
