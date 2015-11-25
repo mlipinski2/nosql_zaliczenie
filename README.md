@@ -1,5 +1,5 @@
 # nosql_zaliczenie
-zaliczenie nosql
+Projekt stworzony na zaliczenie zajec czesci laboratoryjnej nosql
 ## zalozenie 
 Zalozeniem w tym cwiczeniu przemnie i Mariusza bylo sprawdzenie jak mongodb bedzie dzialalo w systemie ktory zostal poddany wirtualizacji, tymsamym bedziemy badac dwie maszyny:
 
