@@ -1,7 +1,9 @@
 # nosql_zaliczenie
 zaliczenie nosql
-##
+## zalozenie 
 Zalozeniem w tym cwiczeniu przemnie i Mariusza bylo sprawdzenie jak mongodb bedzie dzialalo w systemie ktory zostal poddany wirtualizacji, tymsamym bedziemy badac dwie maszyny:
+
+### struktura fizyczna
 
 - VMware HOST (warstwa fizyczna)
 
@@ -9,6 +11,8 @@ sytem: Windows 10 Pro x64
 RAM: 16GB
 procesor: AMD FX-8320 (8 core)
 dysk: WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM)
+
+### struktura zwirtualizowana
 
 - VM z mongodb (warstwa zwirtualizowana)
 
