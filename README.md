@@ -52,13 +52,13 @@ time bunzip2 -c RC_2015-01.bz2 | mongoimport --drop -d mongo -c reddit
 
 jak widac czas jest blisko 120 minut, a zuzycie procesora dla hosta i VMki podczas importu wyglada jak ponizej:
 
-	* HOST mozemy zauwazyc wzmozona prace 4 corow procesora fizycznego oraz dysku fizycznego dla watku VMki (write okolo 10MB/s)
+ * HOST mozemy zauwazyc wzmozona prace 4 corow procesora fizycznego oraz dysku fizycznego dla watku VMki (write okolo 10MB/s)
 	
 ![host_CPU_aggreg.jpg](pliki/host_CPU_aggreg.jpg)
 
 ![host_resource_monitor.jpg](pliki/host_resource_monitor.jpg)
 
-	* VMka
+ * VMka
 	
 ![VM_CPU_after_600sec.jpg](pliki/VM_CPU_after_600sec.jpg)
 
