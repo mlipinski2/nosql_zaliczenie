@@ -2,10 +2,8 @@
 Projekt zespolowy stworzony na zaliczenie zajec czesci laboratoryjnej nosql
 
 osoby:
-
-Michał Lipiński
-
-Mariusz Piątek
+* Michał Lipiński
+* Mariusz Piątek
 
 
 ## zalozenie 
@@ -15,18 +13,18 @@ tym samym bedziemy badac dwie maszyny:
 
 ### struktura fizyczna
 
-- VMware HOST (warstwa fizyczna)
+* VMware HOST (warstwa fizyczna)
 
-sytem: Windows 10 Pro x64
-RAM: 16GB
-procesor: AMD FX-8320 (8 core)
-dysk: WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM)
+  * sytem: Windows 10 Pro x64
+  * RAM: 16GB
+  * procesor: AMD FX-8320 (8 core)
+  * dysk: WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM)
 
 ### struktura zwirtualizowana
 
-- VM z mongodb (warstwa zwirtualizowana)
+* VM z mongodb (warstwa zwirtualizowana)
 
-system: Ubuntu 15.10 x64
-RAM: 4GB
-procesor: 4 zwirtualizowane procesory
-dysk: zwirtualizowany 100GB w pojedynczym pliku vmdk
+  * system: Ubuntu 15.10 x64
+  * RAM: 4GB
+  * procesor: 4 zwirtualizowane procesory
+  * dysk: zwirtualizowany 100GB w pojedynczym pliku vmdk
