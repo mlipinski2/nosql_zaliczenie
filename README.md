@@ -116,6 +116,7 @@ printjson(dbaggreg);
 ![vm_time_import_psql.jpg](pliki/vm_time_import_psql.jpg)
 
 * jednakze zliczanie wszystkich rekordow w bazie postgres juz trwa znaczaco **baaaaardzo dlugo:)**
+ * 5050563 ms = 84.17605 min **:)**
 
 ![VM_psql_count_all.jpg](pliki/VM_psql_count_all.jpg)
 
@@ -124,3 +125,5 @@ printjson(dbaggreg);
 ![host_CPU_utilization_psql_count_all.jpg](pliki/host_CPU_utilization_psql_count_all.jpg)
 
 ![VM_CPU_utilization_psql_count_all.jpg](pliki/VM_CPU_utilization_psql_count_all.jpg)
+
+
