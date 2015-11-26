@@ -16,17 +16,17 @@ tym samym bedziemy badac dwie maszyny:
 
 * VMware HOST (warstwa fizyczna)
 
-  [x] sytem: Windows 10 Pro x64
-  [x] RAM: 16GB
-  [x] procesor: AMD FX-8320 (8 core)
-  [x] dysk: WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM)
+  * sytem: Windows 10 Pro x64
+  * RAM: 16GB
+  * procesor: AMD FX-8320 (8 core)
+  * dysk: WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM)
 
 ### struktura zwirtualizowana
 
 * VM z mongodb (warstwa zwirtualizowana)
 
-  [x] system: Ubuntu 15.10 x64
-  [x] RAM: 4GB
-  [x] procesor: 4 zwirtualizowane procesory
-  [x] dysk: zwirtualizowany 100GB w pojedynczym pliku vmdk
+  * system: Ubuntu 15.10 x64
+  * RAM: 4GB
+  * procesor: 4 zwirtualizowane procesory
+  * dysk: zwirtualizowany 100GB w pojedynczym pliku vmdk
 
