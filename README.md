@@ -62,7 +62,7 @@ jak widac czas jest blisko 120 minut, a zuzycie procesora dla hosta i VMki podcz
 	
 ![VM_CPU_after_600sec.jpg](pliki/VM_CPU_after_600sec.jpg)
 
-	* widac, ze utylizacja hosta jest tylko na 4 core`ach *czyli polowie) i 4 wirtualnych CPU dla VMki czyli 100% przydzielonych zasobow wirtualnych
+* widac, ze utylizacja hosta jest tylko na 4 core`ach *czyli polowie) i 4 wirtualnych CPU dla VMki czyli 100% przydzielonych zasobow wirtualnych
 
 ## dzialania na mongodb (count)(find)(agregacja)
 
@@ -78,11 +78,11 @@ jak widac czas jest blisko 120 minut, a zuzycie procesora dla hosta i VMki podcz
 
 ![VM_time_aggreg1_reddit.jpg](pliki/VM_time_aggreg1_reddit.jpg)
 
-	* jak mozna zauwazyc szukanie/zliczanie czy agregacja danych polega na dostepie read do dysku co widac ponizej dobrze na hoscie:
+* jak mozna zauwazyc szukanie/zliczanie czy agregacja danych polega na dostepie read do dysku co widac ponizej dobrze na hoscie:
 	
 ![host_resource_find.jpg](pliki/host_resource_find.jpg)
 
-	* dla VMki powyzsze operacje dociazaja jak widac vCPU ale vRAM pozostaje bez wiekszych zmian.
+* dla VMki powyzsze operacje dociazaja jak widac vCPU ale vRAM pozostaje bez wiekszych zmian.
 	
 ![VM_CPU_find_count.jpg](pliki/VM_CPU_find_count.jpg)
 
@@ -96,12 +96,14 @@ printjson(dbfind1);
 ```
 
 find2.js
+```js
 var dbfind2 = db.reddit.find().pretty().limit(10);
 
 printjson(dbfind2);
 ```
 
 aggreg.js
+```js
 var dbaggreg = db.reddit.aggregate( [ { $match: { author : "YoungModern" } } , { $group: { _id : "$subreddit_id" , total : { $sum: "$score" } } } ] ).pretty();
 
 printjson(dbaggreg);
