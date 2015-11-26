@@ -30,3 +30,16 @@ tym samym bedziemy badac dwie maszyny:
   * procesor: 4 zwirtualizowane procesory
   * dysk: zwirtualizowany 100GB w pojedynczym pliku vmdk
 
+## import do mongodb
+
+* odpalamy baze mongo db
+
+```sh
+mongod --cpu --directoryperdb --dbpath /home/luis/mongo
+```
+
+* importujemy baze do mongodb
+
+```sh
+time bunzip2 -c RC_2015-01.bz2 | mongoimport --drop -d mongo -c reddit
+```
