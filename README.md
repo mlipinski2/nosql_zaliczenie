@@ -52,7 +52,7 @@ time bunzip2 -c RC_2015-01.bz2 | mongoimport --drop -d mongo -c reddit
 
 jak widac czas jest blisko 120 minut, a zuzycie procesora dla hosta i VMki podczas importu wyglada jak ponizej:
 
-	* HOST - mozemy zauwazyc wzmozona prace 4 corow procesora fizycznego oraz dysku fizycznego dla watku VMki (write ok ~10MB/s)
+	* HOST mozemy zauwazyc wzmozona prace 4 corow procesora fizycznego oraz dysku fizycznego dla watku VMki (write okolo 10MB/s)
 	
 ![host_CPU_aggreg.jpg](pliki/host_CPU_aggreg.jpg)
 
@@ -111,7 +111,7 @@ printjson(dbaggreg);
 
 ## dzialania na postgres (import) (count)
 
-* importowanie json`a bylo podzielone na dwie czesci, pierwsza to rozpakowanie archiwum z json`em a druga to import przy pomocy binarki pgfutter, jak widac nie zajelo specjalnie duzo czasu:
+* importowanie jsona bylo podzielone na dwie czesci, pierwsza to rozpakowanie archiwum z jsonem a druga to import przy pomocy binarki pgfutter, jak widac nie zajelo specjalnie duzo czasu:
 
 ![vm_time_import_psql.jpg](pliki/vm_time_import_psql.jpg)
 
