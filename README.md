@@ -8,7 +8,9 @@ osoby:
 
 ## zalozenie 
 Zalozeniem w tym cwiczeniu przeze mnie i Mariusza bylo sprawdzenie jak mongodb bedzie dzialalo w systemie ktory zostal poddany wirtualizacji.
-Do testow uzylismy sporej bazy z [reddit](https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment), wielkosc ~5,5GB po rozpakowaniu plik json ~32GB, ilosc rekordow 53 851 542 obiekty tym samym bedziemy badac dwie maszyny:
+Do testow uzylismy sporej bazy z [reddit](https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment), wielkosc ~5,5GB
+po rozpakowaniu plik json ~32GB, ilosc rekordow 53 851 542 obiekty.
+tym samym bedziemy badac dwie maszyny:
 
 ### struktura fizyczna
 
@@ -50,15 +52,13 @@ time bunzip2 -c RC_2015-01.bz2 | mongoimport --drop -d mongo -c reddit
 
 jak widac czas jest blisko 120 minut, a zuzycie procesora dla hosta i VMki podczas importu wyglada jak ponizej:
 
-
-
- * HOST - mozemy zauwazyc wzmozona prace 4 corow procesora fizycznego oraz dysku fizycznego dla watku VMki (write ok ~10MB/s)
+	* HOST - mozemy zauwazyc wzmozona prace 4 corow procesora fizycznego oraz dysku fizycznego dla watku VMki (write ok ~10MB/s)
 	
 ![host_CPU_aggreg.jpg](pliki/host_CPU_aggreg.jpg)
 
 ![host_resource_monitor.jpg](pliki/host_resource_monitor.jpg)
 
- * VMka
+	* VMka
 	
 ![VM_CPU_after_600sec.jpg](pliki/VM_CPU_after_600sec.jpg)
 
@@ -115,9 +115,12 @@ printjson(dbaggreg);
 
 ![vm_time_import_psql.jpg](pliki/vm_time_import_psql.jpg)
 
-* jednakze zliczanie wszystkich rekordow w bazie postgres juz trwa znaczaco:
+* jednakze zliczanie wszystkich rekordow w bazie postgres juz trwa znaczaco **baaaaardzo dlugo:)**
 
-![vm_time_import_psql.jpg](pliki/vm_time_import_psql.jpg)
+![VM_psql_count_all.jpg](pliki/VM_psql_count_all.jpg)
 
+* ponizej mozna zauwazyc ze maszyna fizyczna jak i wirtualna glownie zajete byly "dyskowo"
 
+![host_CPU_utilization_psql_count_all.jpg](pliki/host_CPU_utilization_psql_count_all.jpg)
 
+![VM_CPU_utilization_psql_count_all.jpg](pliki/VM_CPU_utilization_psql_count_all.jpg)
