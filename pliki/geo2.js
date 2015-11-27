@@ -1,0 +1,10 @@
+var gdansk = db.miasta.find({"name":"Gdañsk"}).limit(2).toArray()[0]
+var gdansk2 = db.miasta.find({"name":"Gdansk"}).limit(1).toArray()[0]
+var gdynia = db.miasta.find({"name":"Gdynia"}).limit(1).toArray()[0]
+var sopot = db.miasta.find({"name":"Sopot"}).limit(1).toArray()[0]
+var rumia = db.miasta.find({"name":"Rumia"}).limit(1).toArray()[0]
+var reda = db.miasta.find({"name":"Reda"}).limit(1).toArray()[0]
+var puck = db.miasta.find({"name":"Puck"}).limit(1).toArray()[0]
+var wladek = db.miasta.find({"name":"Wladyslawowo"}).limit(1).toArray()[0]
+var jastarnia = db.miasta.find({"name":"Jastarnia"}).limit(2).toArray()[0]
+db.miasta.find({loc: {$geoIntersects: {$geometry : {type: "LineString", "coordinates" : [gdansk, gdansk2,gdynia,sopot,rumia,reda,puck,wladek,jastarnia]}}}})

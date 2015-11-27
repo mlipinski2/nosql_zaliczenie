@@ -1,0 +1,110 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.68976, 54.361118 ]
+        }
+    },{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.689699, 54.361099 ]
+        }
+    },{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.64637, 54.352051 ]
+        }
+    },{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.531879, 54.51889 ]
+        }
+    },{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.547819, 54.441849 ]
+        }
+    },
+	{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.384701, 54.569099 ]
+        }
+    },
+	{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.34717, 54.605282 ]
+        }
+    },
+	{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.319401, 54.715401 ]
+        }
+    },
+	{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.4009, 54.790859 ]
+        }
+    },{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.628441, 54.714771 ]
+        }
+    },{
+        "type": "Feature",
+        "properties": {"name" : "Gdańsk", "country" : "PL"},
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 18.67873, 54.69606 ]
+        }
+    }, {
+        "geometry": {
+            "coordinates": [
+                [ 18.68976, 54.361118 ],
+                [ 18.689699, 54.361099 ],
+				[ 18.64637, 54.352051 ],
+				[ 18.531879, 54.51889 ],
+				[ 18.547819, 54.441849 ],
+				[ 18.384701, 54.569099 ],
+				[ 18.34717, 54.605282 ],
+				[ 18.319401, 54.715401 ],
+				[ 18.4009, 54.790859 ],
+				[ 18.628441, 54.714771 ],
+				[ 18.67873, 54.69606 ]
+            ],
+            "type": "LineString",
+            "_id": "String"
+        },
+        "properties": {
+            "stroke-width": 5,
+            "stroke": "#55AA22",
+            "name": "LineString"
+        },
+        "type": "Feature"
+    }]
+}
+
