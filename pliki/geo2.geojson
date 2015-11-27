@@ -26,14 +26,14 @@
         "properties": {"name" : "Gdańsk", "country" : "PL"},
         "geometry": {
             "type": "Point",
-            "coordinates": [ 18.531879, 54.51889 ]
+            "coordinates": [ 18.547819, 54.441849 ]
         }
     },{
         "type": "Feature",
         "properties": {"name" : "Gdańsk", "country" : "PL"},
         "geometry": {
             "type": "Point",
-            "coordinates": [ 18.547819, 54.441849 ]
+            "coordinates": [ 18.531879, 54.51889 ]
         }
     },
 	{
