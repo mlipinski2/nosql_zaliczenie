@@ -165,6 +165,6 @@ dostarcza nam mapke z droga (LineString), ktora pokonuje na hel jadac na kajta:)
 a tutaj mapka polski (polygon)
 [polska.geojson](pliki/polska.geojson)
 
-## __Na koniec taka zyciowa nasza prawda:)__
+## __Na koniec taka nasza zyciowa prawda, ktora sie okazalo nawet podczas powyzszych zmagan dala sie we znaki:)__
 
 ![mistrz.png](pliki/mistrz.png)
