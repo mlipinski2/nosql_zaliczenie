@@ -127,5 +127,90 @@ printjson(dbaggreg);
 ![VM_CPU_utilization_psql_count_all.jpg](pliki/VM_CPU_utilization_psql_count_all.jpg)
 
 ## __Na koniec taka zyciowa nasza prawda:)__
-![geo1.geojson](pliki/geo1.geojson)
+'''json
+{
+  "type": "FeatureCollection",
+  "features": [
+  {
+      "type": "Feature",
+      "properties": {"name" : "Gdańsk",
+		"country" : "PL"},
+      "geometry": {
+        "type" : "Point",
+			"coordinates" : [
+				18.689699,
+				54.361099
+			]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {"name" : "Kowale",
+		"country" : "PL"},
+      "geometry": {
+        "type" : "Point",
+			"coordinates" : [
+				18.561489,
+				54.309761
+			]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {"name" : "Pruska Plebanka",
+		"country" : "PL"},
+      "geometry": {
+        "type" : "Point",
+			"coordinates" : [
+				18.66667,
+				54.26667
+			]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {"name" : "Rotmanka",
+		"country" : "PL"},
+      "geometry": {
+       "type" : "Point",
+			"coordinates" : [
+				18.6038,
+				54.27425
+			] 
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+				18.689699,
+				54.361099
+			],
+            [
+				18.561489,
+				54.309761
+			],
+            [
+				18.6038,
+				54.27425
+			],
+            [
+				18.66667,
+				54.26667
+			],
+			[
+				18.689699,
+				54.361099
+			]
+          ]
+        ]
+      }
+    }
+   ]
+}
+'''
 ![mistrz.png](pliki/mistrz.png)
