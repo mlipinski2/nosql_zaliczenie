@@ -127,7 +127,7 @@ printjson(dbaggreg);
 ![VM_CPU_utilization_psql_count_all.jpg](pliki/VM_CPU_utilization_psql_count_all.jpg)
 
 ## __Na koniec taka zyciowa nasza prawda:)__
-'''json
+```json
 {
   "type": "FeatureCollection",
   "features": [
@@ -212,5 +212,5 @@ printjson(dbaggreg);
     }
    ]
 }
-'''
+```
 ![mistrz.png](pliki/mistrz.png)
