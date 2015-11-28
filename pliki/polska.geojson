@@ -1,5 +1,5 @@
 {"type":"FeatureCollection","features":[
-  {"type":"Feature","id":"POL","properties":{"name":"Poland"},"geometry":{"type":"Polygon","coordinates":
+  {"type":"Feature","id":"PL","properties":{"name":"Polska"},"geometry":{"type":"Polygon","coordinates":
   [
     [
       [15.016996,51.106674],[14.607098,51.745188],[14.685026,52.089947],[14.4376,52.62485],[14.074521,52.981263],[14.353315,53.248171],
