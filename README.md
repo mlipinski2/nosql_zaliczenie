@@ -126,6 +126,8 @@ printjson(dbaggreg);
 
 ![VM_CPU_utilization_psql_count_all.jpg](pliki/VM_CPU_utilization_psql_count_all.jpg)
 
+<script src="https://embed.github.com/view/geojson/mlipinski2/nosql_zaliczenie/pliki/geo1.geojson"></script>
+
 ## __Na koniec taka zyciowa nasza prawda:)__
 
 ![mistrz.png](pliki/mistrz.png)
