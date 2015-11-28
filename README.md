@@ -142,8 +142,28 @@ var geofind = db.miasta.find({loc: {$near: {$geometry: gdansk} } }).skip(1).limi
 
 printjson(geofind);
 ```
-dostarcza nam mapke z obszarem najblizszych miast w/w obszarze:
+dostarcza nam mapke z obszarem (polygon) najblizszych miast w/w obszarze:
 [geo1.geojson](pliki/geo1.geojson)
+
+* wykonanie pierwszego skryptu [geo2.js](pliki/geo2.js) ktorego postac wyglada:
+```js
+var gdansk = db.miasta.find({"name":"Gdańsk"}).limit(2).toArray()[0]
+var gdansk2 = db.miasta.find({"name":"Gdansk"}).limit(1).toArray()[0]
+var gdynia = db.miasta.find({"name":"Gdynia"}).limit(1).toArray()[0]
+var sopot = db.miasta.find({"name":"Sopot"}).limit(1).toArray()[0]
+var rumia = db.miasta.find({"name":"Rumia"}).limit(1).toArray()[0]
+var reda = db.miasta.find({"name":"Reda"}).limit(1).toArray()[0]
+var puck = db.miasta.find({"name":"Puck"}).limit(1).toArray()[0]
+var wladek = db.miasta.find({"name":"Wladyslawowo"}).limit(1).toArray()[0]
+var jastarnia = db.miasta.find({"name":"Jastarnia"}).limit(2).toArray()[0]
+db.miasta.find({loc: {$geoIntersects: {$geometry : {type: "LineString", "coordinates" : [gdansk.loc.coordinates,gdansk2.loc.coordinates,gdynia.loc.coordinates,sopot.loc.coordinates,rumia.loc.coordinates,reda.loc.coordinates,puck.loc.coordinates,wladek.loc.coordinates,jastarnia.loc.coordinates]}}}})
+```
+
+dostarcza nam mapke z droga (LineString), ktora pokonuje na hel jadac na kajta:)
+[geo2.geojson](pliki/geo2.geojson)
+
+a tutaj mapka polski (polygon)
+[polska.geojson](pliki/polska.geojson)
 
 ## __Na koniec taka zyciowa nasza prawda:)__
 
