@@ -126,7 +126,24 @@ printjson(dbaggreg);
 
 ![VM_CPU_utilization_psql_count_all.jpg](pliki/VM_CPU_utilization_psql_count_all.jpg)
 
-<script src="https://embed.github.com/view/geojson/mlipinski2/nosql_zaliczenie/pliki/geo1.geojson"></script>
+## GEOJSONy - (point) (polygon) (LineString)
+
+* do zabawy z geojsonami uzylismy zbioru wszystkich miast i miasteczek w Polsce (4100 obiekotw) [miasta.polski.json](pliki/miasta.polski.json) gdzie zamiportowanie nie trwalo dlugo:
+
+![VM_import_geojesony_time.jpg](pliki/VM_import_geojesony_time.jpg)
+
+ * wykonanie pierwszego skryptu [geo1.js](pliki/geo1.js) ktorego postac wyglada:
+ ```js
+ var gdansk = {
+    "type" : "Point",
+    "coordinates" : [ 18.68976, 54.361118 ]
+	};
+var geofind = db.miasta.find({loc: {$near: {$geometry: gdansk} } }).skip(1).limit(5).toArray();
+
+printjson(geofind);
+```
+dostarcza nam mapke z obszarem najblizszych miast w/w obszarze:
+[geo1.geojson](pliki/geo1.geojson)
 
 ## __Na koniec taka zyciowa nasza prawda:)__
 
