@@ -127,5 +127,5 @@ printjson(dbaggreg);
 ![VM_CPU_utilization_psql_count_all.jpg](pliki/VM_CPU_utilization_psql_count_all.jpg)
 
 ## __Na koniec taka zyciowa nasza prawda:)__
-
+![geo1.geojson](pliki/geo1.geojson)
 ![mistrz.png](pliki/mistrz.png)
