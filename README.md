@@ -145,7 +145,7 @@ printjson(geofind);
 dostarcza nam mapke z obszarem (polygon) najblizszych miast w/w obszarze:
 [geo1.geojson](pliki/geo1.geojson)
 
-* wykonanie pierwszego skryptu [geo2.js](pliki/geo2.js) ktorego postac wyglada:
+* wykonanie drugiego skryptu [geo2.js](pliki/geo2.js) ktorego postac wyglada:
 ```js
 var gdansk = db.miasta.find({"name":"Gdańsk"}).limit(2).toArray()[0]
 var gdansk2 = db.miasta.find({"name":"Gdansk"}).limit(1).toArray()[0]
