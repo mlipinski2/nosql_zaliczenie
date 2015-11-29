@@ -32,6 +32,7 @@ tym samym bedziemy badac dwie maszyny:
 
 ## import do mongodb
 
+* wersja mono 2.6.10
 * odpalamy baze mongo db z parametrami cpu i directoryperdb w celu sprawdzania uzycia samego silnika w przypadku pierwszego przelacznika, drugi uzyteczny przy importowaniu innych baz w celu zachowania porzadku
 
 ```sh
