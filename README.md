@@ -112,6 +112,7 @@ printjson(dbaggreg);
 
 ## dzialania na postgres (import) (count)
 
+* **wersja bazy postrgres to 9.4 (Ubuntu repository dla ver. 15.10)**
 * importowanie jsona bylo podzielone na dwie czesci, pierwsza to rozpakowanie archiwum z jsonem a druga to import przy pomocy binarki pgfutter, jak widac nie zajelo specjalnie duzo czasu:
 
 ![vm_time_import_psql.jpg](pliki/vm_time_import_psql.jpg)
