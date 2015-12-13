@@ -10,7 +10,7 @@ Rozwiazania zadań z przedmiotu *Bazy NoSQL*:
  - [ ] Aggregation Pipeline
  - [ ] MapReduce
 
-
+W ćwiczeniu bedziemy dzialac w srodowisku zwirtualizowanym, tym samym bedziemy rozpatrywać dwie maszyny:
 
 | struktura fizyczna       VMware HOST                     | struktura zwirtualizowana VM z mongodb|
 |----------------------------------------------------------|---------------------------------------| 
