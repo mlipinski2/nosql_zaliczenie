@@ -14,7 +14,7 @@ tym samym bedziemy badac dwie maszyny:
 
 | struktura fizyczna       VMware HOST                     | struktura zwirtualizowana VM z mongodb|
 |----------------------------------------------------------|---------------------------------------| 
-| sytem Windows 10 Pro x64                                 | Linux Ubuntu 12.04 64-bitowy          | 
+| sytem Windows 10 Pro x64                                 | Linux Ubuntu 15.10 64-bitowy          | 
 | RAM 16GB                                                 | RAM: 4GB								|
 | procesor: AMD FX-8320 (8 core)        | procesor: 4 zwirtualizowane procesory						|
 | dysk: WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM) | dysk: zwirtualizowany 100GB w pojedynczym pliku vmdk | 
