@@ -14,7 +14,6 @@ tym samym bedziemy badac dwie maszyny:
 
 | struktura fizyczna       VMware HOST                     | struktura zwirtualizowana VM z mongodb|
 |----------------------------------------------------------|---------------------------------------| 
-| VMware HOST                                              | VM z mongodb                          |
 | sytem Windows 10 Pro x64                                 | Linux Ubuntu 12.04 64-bitowy          | 
 | RAM 16GB                                                 | Intel Core i5-2410M 2.30 GHz          | 
 | dysk WDC WD20EURX64 2TB dysk cache 64MB rotation 7200RPM | 4                                     | 
