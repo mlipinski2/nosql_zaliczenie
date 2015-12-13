@@ -14,6 +14,8 @@ tym samym bedziemy badac dwie maszyny:
 
 | struktura fizyczna                                       | struktura zwirtualizowana             |
 | VMware HOST                                              | VM z mongodb                          |
+
+
 |----------------------------------------------------------|---------------------------------------|
 | sytem Windows 10 Pro x64                                 | Linux Ubuntu 12.04 64-bitowy          |
 | RAM 16GB                                                 | Intel Core i5-2410M 2.30 GHz          |
