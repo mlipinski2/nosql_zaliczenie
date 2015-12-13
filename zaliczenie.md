@@ -11,17 +11,6 @@ Do testow uzylismy sporej bazy z [reddit](https://www.reddit.com/r/datasets/comm
 po rozpakowaniu plik json ~32GB, ilosc rekordow 53 851 542 obiekty.
 tym samym bedziemy badac dwie maszyny:
 
-
-| struktura fizyczna       VMware HOST                     | struktura zwirtualizowana VM z mongodb|
-|----------------------------------------------------------|---------------------------------------| 
-| sytem Windows 10 Pro x64                                 | Linux Ubuntu 15.10 64-bitowy          | 
-| RAM 16GB                                                 | RAM: 4GB								|
-| procesor: AMD FX-8320 (8 core)        | procesor: 4 zwirtualizowane procesory						|
-| dysk: WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM) | dysk: zwirtualizowany 100GB w pojedynczym pliku vmdk | 
-| Mongo                                                    | 2.6.10                                | 
-| Postgres                                                 | 9.4 Ubuntu repository dla ver. 15.10  | 
-
-
 ## import do mongodb
 
 * odpalamy baze mongo db z parametrami cpu i directoryperdb w celu sprawdzania uzycia samego silnika w przypadku pierwszego przelacznika, drugi uzyteczny przy importowaniu innych baz w celu zachowania porzadku
