@@ -18,10 +18,10 @@ tym samym bedziemy badac dwie maszyny:
 |--- | ---|
 | sytem Windows 10 Pro x64 | system Ubuntu 15.10 x64 |
 | RAM 16GB | RAM 4GB |
-| procesor AMD FX-8320 (8 core) | procesor 4 zwirtualizowane procesory |
-| dysk WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM) | dysk zwirtualizowany 100GB w pojedynczym pliku vmdk |
+| procesor AMD FX8320 8 core | procesor 4 zwirtualizowane procesory |
+| dysk WDC WD20EURX64 2TB dysk cache 64MB rotation 7200RPM | dysk zwirtualizowany 100GB w pojedynczym pliku vmdk |
 | Mongo | 2.6.10 |
-| Postgres | 9.4 (Ubuntu repository dla ver. 15.10) |
+| Postgres | 9.4 Ubuntu repository dla ver. 15.10 |
 
 * VMware HOST (warstwa fizyczna)
 
