@@ -12,16 +12,15 @@ po rozpakowaniu plik json ~32GB, ilosc rekordow 53 851 542 obiekty.
 tym samym bedziemy badac dwie maszyny:
 
 
-| struktura fizyczna                                       | struktura zwirtualizowana             | 
-| VMware HOST                                              | VM z mongodb                          | 
+| struktura fizyczna                                       | struktura zwirtualizowana             
+| VMware HOST                                              | VM z mongodb                          
 
-
-|----------------------------------------------------------|---------------------------------------|
-| sytem Windows 10 Pro x64                                 | Linux Ubuntu 12.04 64-bitowy          |
-| RAM 16GB                                                 | Intel Core i5-2410M 2.30 GHz          |
-| dysk WDC WD20EURX64 2TB dysk cache 64MB rotation 7200RPM | 4                                     |
-| Mongo                                                    | 2.6.10                                |
-| Postgres                                                 | 9.4 Ubuntu repository dla ver. 15.10  |
+|----------------------------------------------------------|---------------------------------------| 
+| sytem Windows 10 Pro x64                                 | Linux Ubuntu 12.04 64-bitowy          | 
+| RAM 16GB                                                 | Intel Core i5-2410M 2.30 GHz          | 
+| dysk WDC WD20EURX64 2TB dysk cache 64MB rotation 7200RPM | 4                                     | 
+| Mongo                                                    | 2.6.10                                | 
+| Postgres                                                 | 9.4 Ubuntu repository dla ver. 15.10  | 
 
 
 * VMware HOST (warstwa fizyczna)
