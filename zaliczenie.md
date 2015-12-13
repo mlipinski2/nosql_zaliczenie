@@ -12,8 +12,8 @@ po rozpakowaniu plik json ~32GB, ilosc rekordow 53 851 542 obiekty.
 tym samym bedziemy badac dwie maszyny:
 
 |struktura fizyczna|struktura zwirtualizowana|
-| VMware HOST|VM z mongodb|
-|--- |---|
+|VMware HOST|VM z mongodb|
+|---|---|
 |sytem Windows 10 Pro x64|system Ubuntu 15.10 x64|
 |RAM 16GB|RAM 4GB|
 |procesor AMD FX8320 8 core|procesor 4 zwirtualizowane procesory|
