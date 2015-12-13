@@ -24,6 +24,13 @@ tym samym bedziemy badac dwie maszyny:
 |Postgres|9.4 Ubuntu repository dla ver. 15.10|
 |=============================================
 
+| Rodzaj komponentu     | Komponent                       |
+|-----------------------|---------------------------------|
+| System operacyjny     | Linux Ubuntu 12.04 (64-bitowy)  |
+| Procesor              | Intel Core i5-2410M 2.30 GHz    |
+| Ilość rdzeni          | 4                               |
+| Pamięć                | 2,8 GB                          |
+
 
 * VMware HOST (warstwa fizyczna)
 
