@@ -1,3 +1,10 @@
+# nosql_zaliczenie
+Projekt zespolowy stworzony na zaliczenie zajec czesci laboratoryjnej nosql
+
+osoby:
+* Michał Lipiński
+* Mariusz Piątek
+
 ## zalozenie 
 Zalozeniem w tym cwiczeniu przeze mnie i Mariusza bylo sprawdzenie jak mongodb bedzie dzialalo w systemie ktory zostal poddany wirtualizacji.
 Do testow uzylismy sporej bazy z [reddit](https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment), wielkosc ~5,5GB
