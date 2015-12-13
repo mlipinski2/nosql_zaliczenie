@@ -1,10 +1,11 @@
 # NoSQL
-## Micha≥ LipiÒski,  Mariusz Piπtek
+## Micha≈Ç Lipi≈Ñski,  Mariusz Piatek
 
-Rozwiπzania zadaÒ z przedmiotu *Bazy NoSQL*:
+Rozwiazania zada≈Ñ z przedmiotu *Bazy NoSQL*:
 
 1. [Zaliczenie](zaliczenie.md):
  - [X] EDA
+ - [X] Geojson
 1. [Egzamin](egzamin.md)
  - [ ] Aggregation Pipeline
  - [ ] MapReduce
