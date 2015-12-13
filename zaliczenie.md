@@ -11,7 +11,7 @@ Do testow uzylismy sporej bazy z [reddit](https://www.reddit.com/r/datasets/comm
 po rozpakowaniu plik json ~32GB, ilosc rekordow 53 851 542 obiekty.
 tym samym bedziemy badac dwie maszyny:
 
-## sprzet:
+
 | struktura fizyczna                                       | struktura zwirtualizowana             |
 | VMware HOST                                              | VM z mongodb                          |
 |----------------------------------------------------------|---------------------------------------| 
