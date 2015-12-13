@@ -22,32 +22,6 @@ tym samym bedziemy badac dwie maszyny:
 | Postgres                                                 | 9.4 Ubuntu repository dla ver. 15.10  | 
 
 
-
-* VMware HOST (warstwa fizyczna)
-
-  * sytem: Windows 10 Pro x64
-  * RAM: 16GB
-  * procesor: AMD FX-8320 (8 core)
-  * dysk: WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM)
-
-### struktura zwirtualizowana
-
-| struktura fizyczna                                       | struktura zwirtualizowana             |
-| VMware HOST                                              | VM z mongodb                          |
-|----------------------------------------------------------|---------------------------------------| 
-| sytem Windows 10 Pro x64                                 | Linux Ubuntu 12.04 64-bitowy          | 
-| RAM 16GB                                                 | Intel Core i5-2410M 2.30 GHz          | 
-| dysk WDC WD20EURX64 2TB dysk cache 64MB rotation 7200RPM | 4                                     | 
-| Mongo                                                    | 2.6.10                                | 
-| Postgres                                                 | 9.4 Ubuntu repository dla ver. 15.10  | 
-
-* VM z mongodb (warstwa zwirtualizowana)
-
-  * system: Ubuntu 15.10 x64
-  * RAM: 4GB
-  * procesor: 4 zwirtualizowane procesory
-  * dysk: zwirtualizowany 100GB w pojedynczym pliku vmdk
-
 ## import do mongodb
 
 * odpalamy baze mongo db z parametrami cpu i directoryperdb w celu sprawdzania uzycia samego silnika w przypadku pierwszego przelacznika, drugi uzyteczny przy importowaniu innych baz w celu zachowania porzadku
