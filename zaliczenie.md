@@ -11,7 +11,16 @@ Do testow uzylismy sporej bazy z [reddit](https://www.reddit.com/r/datasets/comm
 po rozpakowaniu plik json ~32GB, ilosc rekordow 53 851 542 obiekty.
 tym samym bedziemy badac dwie maszyny:
 
-### struktura fizyczna
+| struktura fizyczna | struktura zwirtualizowana |
+| VMware HOST | VM z mongodb |
+|--- | ---|
+| sytem: Windows 10 Pro x64 | system: Ubuntu 15.10 x64 |
+| RAM: 16GB | RAM: 4GB |
+| procesor: AMD FX-8320 (8 core) | procesor: 4 zwirtualizowane procesory |
+| dysk: WDC WD20EURX-64 (2TB dysk cache 64MB rotation 7200RPM) | dysk: zwirtualizowany 100GB w pojedynczym pliku vmdk |
+| Mongo | 2.6.10 |
+| Postgres | 9.4 (Ubuntu repository dla ver. 15.10) |
+|---|---|
 
 * VMware HOST (warstwa fizyczna)
 
@@ -31,7 +40,6 @@ tym samym bedziemy badac dwie maszyny:
 
 ## import do mongodb
 
-* **wersja mono 2.6.10**
 * odpalamy baze mongo db z parametrami cpu i directoryperdb w celu sprawdzania uzycia samego silnika w przypadku pierwszego przelacznika, drugi uzyteczny przy importowaniu innych baz w celu zachowania porzadku
 
 ```sh
@@ -111,7 +119,7 @@ printjson(dbaggreg);
 
 ## dzialania na postgres (import) (count)
 
-* **wersja bazy postrgres to 9.4 (Ubuntu repository dla ver. 15.10)**
+
 * importowanie jsona bylo podzielone na dwie czesci, pierwsza to rozpakowanie archiwum z jsonem a druga to import przy pomocy binarki pgfutter, jak widac nie zajelo specjalnie duzo czasu:
 
 ![vm_time_import_psql.jpg](pliki/vm_time_import_psql.jpg)
