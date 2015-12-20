@@ -18,8 +18,6 @@ po rozpakowaniu plik json ~32GB, ilosc rekordow 53 851 542 obiekty.
 mongod --cpu --directoryperdb --dbpath /home/luis/mongo
 ```
 
-![mongod_start_deamon.jpg](pliki/mongod_start_deamon.jpg)
-
 * importujemy baze do mongodb, uzycie binarki time pokazuje czas wykonywania polecenia
 
 ```sh
