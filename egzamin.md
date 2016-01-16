@@ -73,3 +73,9 @@ reddits = db.reddit.aggregate( [ { "$match": { "author" : "YoungModern" } } , { 
 
 print(list(reddits))
 ```
+
+# Wnioski
+
+Jak widac agregowanie danych jest intuicyjne rowniez w innych jezykach programowania i calkiem niezle rozbudowane pod tym k¹tem!! 
+i rozwija sie w blyskawicznym tempie (od momentu pracy na mongo w tym semestrze przeszlismy wersje 3.0.x do 3.2.x) czyli kilka glownych wersji!!!
+
