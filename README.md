@@ -7,8 +7,8 @@ Rozwiazania zadań z przedmiotu *Bazy NoSQL*:
  - [X] EDA
  - [X] Geojson
 1. [Egzamin](egzamin.md)
- - [ ] Aggregation Pipeline
- - [ ] MapReduce
+ - [X] Aggregation Pipeline
+ - [X] MapReduce
 
 W ćwiczeniu bedziemy dzialac w srodowisku zwirtualizowanym, tym samym bedziemy rozpatrywać dwie maszyny:
 
