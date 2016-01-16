@@ -40,3 +40,36 @@ var dbaggreg = db.reddit.aggregate( [ { $match: { author : "YoungModern" } } , {
 
 printjson(dbaggreg);
 ```
+
+powyzsza agregacja z uzyciem kodu js:
+
+aggreg2.js
+```js
+var group = { $group: { _id : "$subreddit_id" , total : { $sum: "$score" } } };
+var match = { $match: { author : "YoungModern" } };
+
+var cursor = db.zipcodes.aggregate([
+  group,
+  match
+]).pretty();
+
+cursor.forEach(function(d) {
+  printjson(d);
+});
+```
+
+rowniez powyzsza aggregacja przy uzyciu kodu Python:
+
+aggreg3.py
+```py
+import pymongo
+from pymongo import MongoClient
+
+connection = MongoClient('localhost', 27017)
+
+db = connection.nosql
+
+reddits = db.reddit.aggregate( [ { "$match": { "author" : "YoungModern" } } , { "$group": { "_id": "$subreddit_id" , "total" : { "$sum": "$score" } } } ] ).pretty()
+
+print(list(reddits))
+```
