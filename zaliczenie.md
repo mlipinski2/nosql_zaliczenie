@@ -42,28 +42,6 @@ jak widac czas jest blisko 120 minut, a zuzycie procesora dla hosta i VMki podcz
 
 * widac, ze utylizacja hosta jest tylko na 4 core`ach *czyli polowie) i 4 wirtualnych CPU dla VMki czyli 100% przydzielonych zasobow wirtualnych
 
-## dzialania na mongodb (count)(find)(agregacja)
-
-* zliczanie obiektow w mongodb jest natychmiastowe (w dalszej czesci zliczanie na danych psql zajmuje znaczaco wiecej czasu)
-
-![VM_time_count_reddit.jpg](pliki/VM_time_count_reddit.jpg)
-
-* zliczenie wszystkich subredditow - PokemonTreaders widac zajelo juz ~10 min
-
-![VM_time_find_count.jpg](pliki/VM_time_find_count.jpg)
-
-* podczas dzialan agregujacych czas jest podobny do zliczania i odczytu ~10min
-
-![VM_time_aggreg1_reddit.jpg](pliki/VM_time_aggreg1_reddit.jpg)
-
-* jak mozna zauwazyc szukanie/zliczanie czy agregacja danych polega na dostepie read do dysku co widac ponizej dobrze na hoscie:
-	
-![host_resource_find.jpg](pliki/host_resource_find.jpg)
-
-* dla VMki powyzsze operacje dociazaja jak widac vCPU ale vRAM pozostaje bez wiekszych zmian.
-	
-![VM_CPU_find_count.jpg](pliki/VM_CPU_find_count.jpg)
-
 skrypty ktore zostaly uzyte do powyzszych dzialan:
 
 find1.js
