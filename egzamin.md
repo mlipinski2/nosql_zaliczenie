@@ -76,6 +76,7 @@ print(list(reddits))
 
 # Wnioski
 
-Jak widac agregowanie danych jest intuicyjne rowniez w innych jezykach programowania i calkiem niezle rozbudowane pod tym k¹tem!! 
-i rozwija sie w blyskawicznym tempie (od momentu pracy na mongo w tym semestrze przeszlismy wersje 3.0.x do 3.2.x) czyli kilka glownych wersji!!!
+Jak widac agregowanie danych jest intuicyjne rowniez w innych jezykach programowania, i calkiem niezle rozbudowane pod tym k¹tem! 
+rozwija sie w blyskawicznym tempie (od momentu pracy na mongo w tym semestrze przeszlismy wersje 3.0.x do 3.2.x) czyli kilka glownych wersji!
+Reasumujac mozemy wnioskowac ze blyskawiczny rozwoj tej technologii, ostro namiesza w swiecie dostepu do BIGDATA!
 
