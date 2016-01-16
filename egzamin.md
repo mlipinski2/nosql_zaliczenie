@@ -67,7 +67,7 @@ from pymongo import MongoClient
 
 connection = MongoClient('localhost', 27017)
 
-db = connection.nosql
+db = connection.reddit
 
 reddits = db.reddit.aggregate( [ { "$match": { "author" : "YoungModern" } } , { "$group": { "_id": "$subreddit_id" , "total" : { "$sum": "$score" } } } ] ).pretty()
 
